@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{% block title %}淘宝{{ self.site.1 }}{{ current_catalog.name }}{% endblock %}</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="/css/freshpress.css" />
+        <link rel="stylesheet" href="/css/catalog.css" />
+        <script src="http://a.tbcdn.cn/apps/top/x/sdk.js?appkey=21247858"></script>
+        {% block htmlhead %}{% endblock %}
+    </head>
+    <body>
+        <div id="dashboard">
+            <div class="dash">
+                {% if self.user %}
+                    {% if self.user.code %}
+                        <span>欢迎【{{ self.user.name }}/{{ self.user.code }}】</span>
+                    {% else %}
+                        <span>账号未激活</span>
+                    {% endif %}
+                    <a href="{{ self.logout_url }}">[退出]</a>
+                {% endif %}
+                <a href="/manager">[管理]</a>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="header">
+            <div class="headings">
+                <h1>
+                    <a href="/"><img width="26" height="26" src="/favicon.ico"></img></a>
+                    淘宝{{ self.site.1 }}<font color="red"><strong>{{ current_catalog.name }}</strong></font></h1>
+                <h2><strong>{{ self.domain }}</strong></h2>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div id="nav">
+            <ul>
+                {% block nav %}
+                {% for cat in catalogs %}
+                <li><a href="/cat/{{ cat.cid }}">{{ cat.name }}</a></li>
+                {% endfor %}
+                {% endblock %}
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <div id="container">
+            <div id="content" {% block content_prop %}{% endblock %}>
+                {% block content %}{% endblock %}
+            </div>
+            {% block container %}{% endblock %}
+            <div class="clear"></div>
+        </div>
+        <div id="footer">
+            <div class="footerinner">
+                <div class="footerc">
+                    <h3>所有频道</h3>
+                    <ul>
+                        {% for s,n in self.sites %}
+                        <li><a href="http://{{ s }}.2dash.com">{{ n }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div id="credits">
+                    <span><a href="mailto:zoumorn@msn.com">@2DASH</a> 2012. All Rights Reserved</span>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        {% block htmlbody %}{% endblock %}
+    </body>
+</html>
