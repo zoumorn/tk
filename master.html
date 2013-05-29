@@ -1,60 +1,58 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title><!-- block title -->淘宝<!-- self.site.1 --><!-- current_catalog.name --><!-- endblock --></title>
+        <title>网络捕手</title>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <link rel="stylesheet" href="css/freshpress.css" />
-        <!-- block htmlhead --><!-- endblock -->
     </head>
     <body>
         <div id="dashboard">
             <div class="dash">
-                <!-- if self.user -->
-                    <!-- if self.user.code -->
-                        <span>欢迎【<!-- self.user.name -->/<!-- self.user.code -->】</span>
-                    <!-- else -->
-                        <span>账号未激活</span>
-                    <!-- endif -->
-                    <a href="<!-- self.logout_url -->">[退出]</a>
-                <!-- endif -->
-                <a href="/manager">[管理]</a>
+                <span>客服专线QQ：2911641966</span>
                 <div class="clear"></div>
             </div>
         </div>
         <div id="header">
             <div class="headings">
                 <h1>
-                    <a href="/"><img width="26" height="26" src="images/favicon.ico"></img></a>
-                    淘宝<!-- self.site.1 --><font color="red"><strong><!-- current_catalog.name --></strong></font></h1>
-                <h2><strong><!-- self.domain --></strong></h2>
+                    <a href="index.html"><img width="64" height="64" src="images/logo.png"></img></a>
+                    <strong>网络捕手</strong>
+                </h1>
+                <h2>兔达西出品</h2>
                 <div class="clear"></div>
             </div>
         </div>
         <div id="nav">
             <ul>
-                <!-- block nav -->
-                <!-- for cat in catalogs -->
-                <li><a href="/cat/<!-- cat.cid -->"><!-- cat.name --></a></li>
-                <!-- endfor -->
-                <!-- endblock -->
+                <li><a href="index.html">产品介绍</a></li>
+                <li><a href="mach.html">工作原理</a></li>
+                <li><a href="user.html">淘宝用户</a></li>
+                <li><a href="tbk.html">淘宝客</a></li>
+                <li><a href="queryitem">操作指南</a></li>
+                <li><a href="faq.html">常见问题</a></li>
+                <li><a href="about.html">关于</a></li>
                 <div class="clear"></div>
             </ul>
         </div>
         <div id="container">
-            <div id="content" <!-- block content_prop --><!-- endblock -->>
-                <!-- block content --><!-- endblock -->
+            <div id="content">
             </div>
-            <!-- block container --><!-- endblock -->
+            <div id="rightsidebar">
+                <h2 class="widgettitle">立即使用</h2>
+                <ul>
+                    <li><a target="_blank" href="http://hunter.2dash.com/manager">进入系统</a></li>
+                    <div class="clear"></div>
+                </ul>
+                <div class="clear"></div>
+            </div>
             <div class="clear"></div>
         </div>
         <div id="footer">
             <div class="footerinner">
                 <div class="footerc">
-                    <h3>所有频道</h3>
+                    <h3>相关链接</h3>
                     <ul>
-                        <!-- for s,n in self.sites -->
-                        <li><a href="http://<!-- s -->.2dash.com"><!-- n --></a></li>
-                        <!-- endfor -->
+                        <li><a href="http://hunter.2dash.com">网络捕手</a></li>
                     </ul>
                 </div>
                 <div id="credits">
@@ -63,6 +61,5 @@
                 <div class="clear"></div>
             </div>
         </div>
-        <!-- block htmlbody --><!-- endblock -->
     </body>
 </html>
