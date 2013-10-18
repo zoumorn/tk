@@ -1,0 +1,123 @@
+/* ::::: file:///D:/git/mi3/index.css ::::: */
+
+audio:not([controls]) { display: none; height: 0px; }
+html { font-size: 100%; }
+a:focus { outline: thin dotted rgb(51, 51, 51); outline-offset: -2px; }
+a:hover, a:active { outline: 0px none; }
+b, strong { font-weight: bold; }
+img { height: auto; vertical-align: middle; border: 0px none; }
+form { margin: 0px; }
+button, input, select, textarea { font-size: 100%; margin: 0px; vertical-align: baseline; }
+button, input { line-height: normal; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }
+body { margin: 0px; font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif; font-size: 14px; line-height: 20px; color: rgb(101, 109, 120); background-color: rgb(245, 247, 250); position: relative; }
+.container { margin-right: auto; margin-left: auto; }
+.container:before, .container:after { display: table; content: ""; line-height: 0; }
+.container:after { clear: both; }
+.header.container { transition: width 0.3s ease 0s; }
+a { color: rgb(101, 109, 120); text-decoration: none; }
+a:hover, a:focus { color: rgb(255, 111, 61); text-decoration: none; }
+.clearfix {  }
+.clearfix:before, .clearfix:after { display: table; content: ""; line-height: 0; }
+.clearfix:after { clear: both; }
+.container { width: 1190px; }
+.btn { display: inline-block; margin-bottom: 0px; font-size: 14px; height: 38px; line-height: 38px; text-align: center; cursor: pointer; background-color: rgb(255, 255, 255); border: 1px solid rgb(230, 233, 237); border-radius: 5px 5px 5px 5px; color: rgb(101, 109, 120); padding: 0px; width: 140px; }
+.btn:hover, .btn:focus { color: rgb(101, 109, 120); text-decoration: none; background-color: rgb(255, 255, 255); }
+.btn:focus { outline: thin dotted rgb(51, 51, 51); outline-offset: -2px; }
+.btn.active, .btn:active { outline: 0px none; background-color: rgb(245, 247, 250); box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15) inset; }
+.btn-primary { background-color: rgb(255, 111, 61); border: 0px none; color: rgb(255, 255, 255); }
+.btn-primary:hover, .btn-primary:focus { color: rgb(255, 255, 255); background-color: rgb(255, 126, 81); }
+.btn-primary.active, .btn-primary:active { background-color: rgb(240, 99, 50); }
+.icon-common { display: inline-block; background-image: url('icon-common.png'); background-repeat: no-repeat; }
+.icon-common-tel { width: 31px; height: 22px; background-position: -177px -5px; }
+.icon-common-carthover { width: 16px; height: 13px; background-position: -294px -53px; }
+.icon-common-search { width: 17px; height: 18px; background-position: -223px -51px; }
+.icon-common-searchhover { width: 36px; height: 34px; background-position: -402px -12px; }
+.header { margin-bottom: 10px; }
+.header ul, .header li, .header dl, .header dt, .header dd, .header a, .header strong, .header label, .header em { list-style: none outside none; padding: 0px; margin: 0px; }
+.header .top { position: relative; height: 110px; text-align: right; z-index: 1001; }
+.header .top .right { color: rgb(67, 74, 84); font-size: 12px; padding-top: 33px; }
+.header .top .right a { color: rgb(67, 74, 84); text-decoration: none; }
+.header .top .right a:hover { color: rgb(255, 111, 61); }
+.header .top .right .search { position: relative; float: right; display: inline-block; }
+.header .top .right .search .txt { display: block; width: 364px; height: 32px; line-height: 32px; text-indent: 6px; border: 3px solid rgb(255, 111, 61); background: none repeat scroll 0% 0% rgb(255, 255, 255); margin-bottom: 6px; color: rgb(204, 209, 217); border-radius: 6px 6px 6px 6px; }
+.header .top .right .search .txt:focus { outline: 0px none; }
+.header .top .right .search .iconsear { position: absolute; left: 343px; top: 10px; z-index: 1; display: block; cursor: pointer; border: 0px none; }
+.header .top .right .search .iconsearbg { position: absolute; left: 333px; top: 3px; z-index: 1; cursor: pointer; border: 0px none; display: none; }
+.header .top .right .menu { position: relative; float: right; display: inline-block; width: 400px; padding-top: 10px; margin-left: 0px; margin-right: 105px; }
+.header .top .right .menu li { float: right; display: inline-block; height: 15px; line-height: 15px; text-align: center; border-right: 1px solid rgb(204, 209, 217); padding: 0px 15px; position: relative; }
+.header .top .right .shop { position: absolute; right: 0px; top: 28px; z-index: 1; display: inline-block; width: 110px; height: 40px; line-height: 40px; border: 3px solid rgb(245, 247, 250); border-radius: 5px 5px 0px 0px; }
+.header .top .right .shop .pay { display: block; vertical-align: middle; text-align: center; text-decoration: none; overflow: hidden; cursor: pointer; }
+.header .top .right .shop .pay .icon-common { margin-right: 4px; margin-bottom: -2px; }
+.header .nav { position: relative; height: 45px; line-height: 45px; color: rgb(255, 255, 255); font-size: 16px; background: none repeat scroll 0% 0% rgb(255, 111, 61); border-radius: 4px 4px 4px 0px; }
+.header .nav strong { float: left; display: inline-block; width: 229px; border-right: 1px solid rgb(237, 95, 48); }
+.header .nav strong.side a { display: block; width: 100%; height: 100%; text-indent: 20px; color: rgb(255, 255, 255); cursor: pointer; font-weight: 400; text-decoration: none; border-radius: 4px 0px 0px 4px; }
+.header .nav strong.side a:hover { background: none repeat scroll 0% 0% rgb(237, 95, 48); }
+.header .nav .lnks .lnks-li li { float: left; display: inline-block; }
+.header .nav .lnks .lnks-li li a.lnk { display: block; padding: 0px 12px; height: 100%; color: rgb(255, 255, 255); text-decoration: none; }
+.header .nav .lnks .lnks-li li a:hover { background: none repeat scroll 0% 0% rgb(237, 95, 48); }
+.header .navon { border-radius: 4px 4px 4px 4px; }
+.footer { margin-top: 20px; min-width: 1190px; overflow: hidden; }
+.footer ul, .footer li, .footer dl, .footer dt, .footer dd, .footer a, .footer strong, .footer label, .footer em { list-style: none outside none; padding: 0px; margin: 0px; }
+.footer .info { line-height: 2; color: rgb(67, 74, 84); font-size: 12px; text-align: center; padding: 20px 0px 30px; }
+.footer .info p { margin: 0px; }
+.footer .believe { padding: 0px 0px 80px; text-align: center; }
+.footer .believe a { margin: 0px 3px; }
+.footer .believe img { border: 0px none; height: 42px; }
+.section { position: relative; border-top: 1px solid rgb(230, 233, 237); background: none repeat scroll 0% 0% rgb(255, 255, 255); overflow: hidden; }
+.section h3, .section h4 { margin: 0px; font-weight: 400; }
+.section h3 { font-size: 31px; line-height: 1.2; color: rgb(51, 51, 51); }
+.section ul { margin: 0px; padding: 0px; list-style-type: none; }
+.section p { margin: 0px; font-size: 14px; line-height: 1.7; color: rgb(101, 109, 120); }
+.section a { color: rgb(255, 111, 61); }
+.section a:hover { color: rgb(255, 111, 61); text-decoration: underline; }
+.section .video { position: relative; }
+.section .video .btn-play, .section .video .btn-down { width: 35px; height: 36px; background: url('btn-play.png') no-repeat scroll 0px 0px transparent; }
+.section .video .btn-down { background-position: 100% 0px; }
+.section .video a:hover .btn-down { background-position: 100% 100%; }
+.mi3-content-intro .section h3, .mi3-content-intro .section p { margin-bottom: 15px; }
+.mi3-content-intro .section-bn { border-top: 0px none; }
+.mi3-content-intro .section-bn .bn { height: 300px; padding: 100px 0px; text-align: center; }
+.mi3-content-intro .section-bn .bn h3 { margin-bottom: 20px; font-size: 56px; }
+.mi3-content-intro .section-bn .bn h3 span { display: block; margin-top: 10px; font-size: 34px; }
+.mi3-content-intro .section-bn .bn p { font-size: 18px; color: rgb(102, 102, 102); }
+.mi3-content-intro .section-bn .bn .price { margin-top: 15px; font-size: 14px; color: rgb(51, 51, 51); }
+.mi3-content-intro .section-bn .bn .price b { margin-right: 3px; font-size: 26px; font-weight: 400; }
+.mi3-content-intro .section-bn .bn .price span { margin: 0px 15px; }
+.mi3-content-intro .section-bn .videos { padding: 30px 0px 20px; background: url('home-bn-bg.png') no-repeat scroll 50% 0px transparent; }
+.mi3-content-intro .section-bn .videos .videoscroll { position: relative; width: 990px; margin: 0px auto; }
+.mi3-content-intro .section-bn .videos .videoscroll .pifu { width: 920px; height: 150px; margin: 0px auto; position: relative; overflow: hidden; }
+.mi3-content-intro .section-bn .videos .videoscroll .pifu ul { position: relative; }
+.mi3-content-intro .section-bn .videos .videoscroll .pifu li { float: left; display: inline; width: 210px; margin: 0px 10px; }
+.mi3-content-intro .section-bn .videos .videoscroll .pifu .title { display: block; margin-top: 10px; text-align: center; color: rgb(101, 109, 120); }
+.mi3-content-intro .section-bn .videos .videoscroll .pifu .video { width: 210px; }
+.mi3-content-intro .section-bn .videos .videoscroll .pifu .video img { width: 210px; height: 120px; }
+.mi3-content-intro .section-bn .videos .videoscroll .pifu .video a:hover { text-decoration: none; }
+.mi3-content-intro .section-bn .videos .videoscroll .pifu .video .btn-play, .mi3-content-intro .section-bn .videos .videoscroll .pifu .video .btn-down { position: absolute; top: 42px; left: 88px; }
+.mi3-content-intro .section-cpu { height: 240px; padding: 80px; background: url('browsers.jpg') no-repeat scroll 85% 70% rgb(255, 255, 255); }
+.mi3-content-intro .section-cpu h3 { margin-bottom: 10px; }
+.mi3-content-intro .section-cpu p { width: 490px; margin-bottom: 10px; }
+.mi3-content-intro .section-display { height: 200px; padding: 100px 70px 100px 625px; background: url('home-display.jpg') no-repeat scroll 0px 100% rgb(255, 255, 255); }
+.mi3-content-intro .section-display h3 { margin-bottom: 30px; }
+.mi3-content-intro .section-camera { height: 280px; padding: 110px 80px 10px; background: url('home-camera.jpg') no-repeat scroll 100% 100% rgb(255, 255, 255); }
+.mi3-content-intro .section-camera p { width: 610px; }
+.mi3-content-intro .section-battery { height: 150px; padding: 145px 80px 105px 675px; background: url('cloud-share.jpg') no-repeat scroll 13% 50% rgb(255, 255, 255); }
+.mi3-content-intro .section-nfc { height: 180px; padding: 115px 80px 105px; background: url('anti-virus.jpg') no-repeat scroll 100% 90% rgb(255, 255, 255); }
+.mi3-content-intro .section-nfc p { width: 400px; }
+.mi3-content-intro .section-body { height: 200px; padding: 110px 70px 90px 805px; background: url('pv.jpg') no-repeat scroll 0px 0px rgb(255, 255, 255); }
+.mi3-content-intro .section-miui { height: 250px; padding: 75px 80px; background: url('corp.jpg') no-repeat scroll 87% 100% rgb(255, 255, 255); }
+.mi3-content-intro .section-miui p { width: 425px; }
+.mi3-content-intro .section-cloud { height: 200px; padding: 115px 80px 85px 795px; background: url('shopping.jpg') no-repeat scroll 0px 100% rgb(255, 255, 255); }
+.mi3-content-intro .section-app { height: 200px; padding: 110px 80px 90px; background: url('pc.jpg') no-repeat scroll 90% 100% rgb(255, 255, 255); }
+.mi3-content-intro .section-app p { width: 430px; }
+.mi3-content-intro .section-footer { margin-top: 10px; padding: 40px 0px; border-top: 0px none; }
+.mi3-content-intro .section-footer li { float: left; width: 236px; height: 210px; padding: 0px 30px; text-align: center; }
+.mi3-content-intro .section-footer li h4 { margin-bottom: 3px; font-size: 24px; color: rgb(51, 51, 51); }
+.mi3-content-intro .section-footer li .mi3-s { display: block; margin: 0px auto 5px; }
+.mi3-content-intro .section-footer .li-icon { border-left: 1px solid rgb(230, 233, 237); }
+.mi3-content-intro .section-footer .li-icon h4 { margin-bottom: 15px; font-size: 18px; color: rgb(51, 51, 51); }
+.mi3-content-intro .section-footer .mi3-icon { display: inline-block; width: 65px; height: 50px; margin-bottom: 20px; }
+.mi3-content-intro .section-footer .mi3-icon-delivery { background: url('icon-truck.png') no-repeat scroll 50% 50% transparent; }
+.mi3-content-intro .section-footer .mi3-icon-contact { background: url('icon-tel.png') no-repeat scroll 50% 50% transparent; }
+.mi3-content-intro .section-footer .mi3-icon-more { background: url('icon-more.png') no-repeat scroll 50% 50% transparent; }
+body:after { content: url('close.png') url('loading_001.gif') url('prev.png') url('next.png'); display: none; }
