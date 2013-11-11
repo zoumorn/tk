@@ -77,13 +77,20 @@ a:hover, a:focus { color: rgb(255, 111, 61); text-decoration: none; }
 .section .video a:hover .btn-down { background-position: 100% 100%; }
 .mi3-content-intro .section h3, .mi3-content-intro .section p { margin-bottom: 15px; }
 .mi3-content-intro .section-bn { border-top: 0px none; }
-.mi3-content-intro .section-bn .bn { height: 300px; padding: 100px 0px; text-align: center; }
+.mi3-content-intro .section-bn .bn { padding: 100px 0px; text-align: center; }
 .mi3-content-intro .section-bn .bn h3 { margin-bottom: 20px; font-size: 56px; }
 .mi3-content-intro .section-bn .bn h3 span { display: block; margin-top: 10px; font-size: 34px; }
 .mi3-content-intro .section-bn .bn p { font-size: 18px; color: rgb(102, 102, 102); }
 .mi3-content-intro .section-bn .bn .price { margin-top: 15px; font-size: 14px; color: rgb(51, 51, 51); }
 .mi3-content-intro .section-bn .bn .price b { margin-right: 3px; font-size: 26px; font-weight: 400; }
 .mi3-content-intro .section-bn .bn .price span { margin: 0px 15px; }
+.price-detail { margin:20px 50px; }
+.price-detail table { border-collapse: collapse; border: solid #999; border-width: 1px 0 0 1px; table-layout: fixed; width:100%; height: 5000; }
+.price-detail table td, th { border: solid #999; border-width: 0 1px 1px 0; padding: 2px; text-align:center; }
+.price-detail td ol { width: 80%; float: left; text-align: left; }
+.price-detail td ol li span { float: right; }
+.price-detail .po { color: gray; text-decoration: line-through; font-style: italic; }
+.price-detail .pn { color: red; }
 .mi3-content-intro .section-bn .videos { padding: 30px 0px 20px; background: url('home-bn-bg.png') no-repeat scroll 50% 0px transparent; }
 .mi3-content-intro .section-bn .videos .videoscroll { position: relative; width: 990px; margin: 0px auto; }
 .mi3-content-intro .section-bn .videos .videoscroll .pifu { width: 920px; height: 150px; margin: 0px auto; position: relative; overflow: hidden; }
